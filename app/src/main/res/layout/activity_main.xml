@@ -12,14 +12,18 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         app:title_textSize="20sp"
-        app:textColor="#f00"
-        app:lineWidth="5dp"
+        app:normalColor="#f00"
+        app:lightColor="#0f0"
+        app:indicatorWidth="40dp"
+        app:indicatorHeight="5dp"
         android:background="#ccc"
+        app:currentItem="1"
         >
 
     </com.yunbao.vi.view.ViewPagerIndicator>
 
     <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
