@@ -65,6 +65,7 @@ public class ViewPagerIndicator extends LinearLayout implements ViewPager.OnPage
         mNormalColorArgb = getColorArgb(mNormalColor);
         mLightColorArgb = getColorArgb(mLightColor);
         mCurrentItem = a.getInteger(R.styleable.ViewPagerIndicator_currentItem, 0);
+        a.recycle();
     }
 
     @Override
